@@ -1,5 +1,5 @@
 // This is you home view, which is being render on main.jsx
-import reactLogo from "../assets/reactLogo.png"
+
 import { Navbar } from "../components/Navbar";
 
 const Home = () => {
@@ -14,9 +14,6 @@ const Home = () => {
         </div>
       </div>
       <div className="row align-items-center">
-        <div className="col">
-          <h2>Start creating a small React app using this boilerplate. <a><img height="50px" width="50px" src={reactLogo}/></a></h2>
-        </div>
       </div>
      </div>
     </>
